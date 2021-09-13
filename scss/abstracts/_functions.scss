@@ -1,3 +1,7 @@
 @function toRem($pixel) {
     @return ($pixel / 16) + rem;
 }
+
+@function small-prop($pixel) {
+    @return ($pixel/375 * 100) + vw;
+}

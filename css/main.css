@@ -93,4 +93,56 @@ p {
   line-height: 1.3125rem;
   text-align: left;
 }
+
+body {
+  align-items: center;
+  background-color: #d6e1ff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+main {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 40px 40px rgba(13, 49, 191, 0.15);
+  overflow: hidden;
+  width: 87.2vw;
+}
+
+.hero {
+  background-image: url("../images/illustration-hero.svg");
+  background-position: center;
+  background-size: contain;
+  height: 42.66667vw;
+  width: 87.2vw;
+}
+
+.margin {
+  margin: auto 6.4vw;
+}
+
+h1 {
+  margin-bottom: 1.1875rem;
+  margin-top: 2rem;
+}
+
+.plan {
+  align-items: center;
+  background-color: #f5f7ff;
+  border-radius: 11px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.625rem;
+  padding: 17px 19px;
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
