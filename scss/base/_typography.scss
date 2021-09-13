@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif; 
+}
+
+a {
+   color: $link-color; 
+   font-family: inherit;
+   font-size: toRem(14);
+   line-height: toRem(18);
+   text-decoration: underline;
+}
+
+h1,
+h2 {
+    color: $heading-color;
+    font-weight: 900;
+}
+
+h1 {   
+    font-size: toRem(28);
+    line-height: toRem(38);
+    text-align: center;
+}
+
+h2 {
+    line-height: toRem(21);
+}
+
+p {
+    color: $main-text-color;
+    font-size: toRem(16);
+    font-weight: 500;
+    line-height: toRem(26);
+    text-align: center;
+}
+
+.price-box {
+    p {
+        line-height: toRem(21);
+        text-align: left;
+    }
+}
