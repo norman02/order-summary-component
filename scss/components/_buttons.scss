@@ -1,0 +1,20 @@
+.btn {   
+    font-size: toRem(15);
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+
+    &--blue {
+        background: $blue-btn-bg;
+        box-shadow: 0px 20px 20px hsla(245, 75%, 52%, 0.19);
+        border-radius: 11px;
+        color: $blue-btn-text;
+        padding: toRem(15) 0;
+    }
+
+    &--white {
+        color: $white-btn-txt;
+        margin-top: toRem(24);
+    }
+}
