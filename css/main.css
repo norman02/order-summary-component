@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+.btn, .change {
+  transition: 0.8s;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -110,9 +114,27 @@ p {
   padding: 0.9375rem 0;
 }
 
+.btn--blue:hover {
+  background-color: #756af1;
+}
+
 .btn--white {
   color: #7280a7;
   margin-top: 1.5rem;
+}
+
+.btn--white:hover {
+  color: #1f2f56;
+}
+
+.change {
+  font-family: inherit;
+  font-size: 1.125rem;
+}
+
+.change:hover {
+  color: #756af1;
+  text-decoration: none;
 }
 
 body {

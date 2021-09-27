@@ -1,4 +1,5 @@
-.btn {   
+.btn {  
+    @extend %transition-ease; 
     font-size: toRem(15);
     font-weight: 900;
     text-align: center;
@@ -11,10 +12,29 @@
         border-radius: 11px;
         color: $blue-btn-text;
         padding: toRem(15) 0;
+
+        &:hover {
+            background-color: hsla(245, 83%, 68%, 1);
+        }
     }
 
     &--white {
         color: $white-btn-txt;
         margin-top: toRem(24);
+
+        &:hover {
+            color: hsla(223, 47%, 23%, 1);
+        }
+    }
+}
+
+.change {
+    @extend %transition-ease;
+    font-family: inherit;
+    font-size: toRem(18);
+
+    &:hover {
+        color: hsla(245, 83%, 68%, 1);
+        text-decoration: none;
     }
 }
