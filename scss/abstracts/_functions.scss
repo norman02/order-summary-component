@@ -5,3 +5,8 @@
 @function small-prop($pixel) {
     @return ($pixel/375 * 100) + vw;
 }
+
+@function large-prop($pixel) {
+    @return ($pixel/1440 * 100) + vw;
+}
+
